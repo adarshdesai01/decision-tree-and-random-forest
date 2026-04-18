@@ -1,0 +1,25 @@
+# Objective
+Learn tree-based models for classification using the Heart Disease dataset.
+
+# Tools used
+- Python (Google Colab)
+- Scikit-learn
+- Matplotlib & Seaborn
+- Graphviz (optional for tree visualization)
+
+# Dataset
+- `heart.csv` (Heart Disease Dataset)
+
+# Steps Implemented
+1. **Data Loading** – Imported dataset using pandas.
+2. **Train-Test Split** – Divided data into training and testing sets.
+3. **Decision Tree Classifier** – Trained with controlled depth to avoid overfitting.
+4. **Tree Visualization** – Used `plot_tree` to visualize splits.
+5. **Random Forest Classifier** – Trained ensemble model for better accuracy.
+6. **Feature Importance** – Plotted most important features influencing predictions.
+7. **Cross-Validation** – Compared average accuracy of Decision Tree vs Random Forest.
+
+# Results
+- Decision Tree Accuracy: ~70–75% (depends on depth)
+- Random Forest Accuracy: ~80–85% (more stable)
+- Random Forest generally performs better due to bagging and ensemble learning.
